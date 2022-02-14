@@ -5,7 +5,8 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float moveSpeed = 20f, runSpeed = 40f;
+    public float moveSpeed = 20f;
+    public float runSpeed = 40f;
 
     Transform viewPoint;
     CharacterController charCon;
